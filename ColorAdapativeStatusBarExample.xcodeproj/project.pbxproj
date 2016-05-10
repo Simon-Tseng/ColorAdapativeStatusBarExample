@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB233BE41CE232CD00FABB0F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB233BE31CE232CD00FABB0F /* README.md */; };
 		BBFA870D1CE1D7FF00439E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA870C1CE1D7FF00439E68 /* AppDelegate.swift */; };
 		BBFA870F1CE1D7FF00439E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA870E1CE1D7FF00439E68 /* ViewController.swift */; };
 		BBFA87121CE1D7FF00439E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87101CE1D7FF00439E68 /* Main.storyboard */; };
 		BBFA87141CE1D7FF00439E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87131CE1D7FF00439E68 /* Assets.xcassets */; };
 		BBFA87171CE1D7FF00439E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87151CE1D7FF00439E68 /* LaunchScreen.storyboard */; };
+		BBFA87231CE1D81B00439E68 /* Flower.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFA871E1CE1D81B00439E68 /* Flower.png */; };
+		BBFA87241CE1D81B00439E68 /* Type.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFA871F1CE1D81B00439E68 /* Type.png */; };
+		BBFA87251CE1D81B00439E68 /* Leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87201CE1D81B00439E68 /* Leaf.png */; };
+		BBFA87261CE1D81B00439E68 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87211CE1D81B00439E68 /* Rock.png */; };
+		BBFA87271CE1D81B00439E68 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFA87221CE1D81B00439E68 /* Sky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB233BE31CE232CD00FABB0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BBFA87091CE1D7FF00439E68 /* ColorAdapativeStatusBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorAdapativeStatusBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFA870C1CE1D7FF00439E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBFA870E1CE1D7FF00439E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		BBFA87131CE1D7FF00439E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBFA87161CE1D7FF00439E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFA87181CE1D7FF00439E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFA871E1CE1D81B00439E68 /* Flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower.png; sourceTree = "<group>"; };
+		BBFA871F1CE1D81B00439E68 /* Type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Type.png; sourceTree = "<group>"; };
+		BBFA87201CE1D81B00439E68 /* Leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaf.png; sourceTree = "<group>"; };
+		BBFA87211CE1D81B00439E68 /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rock.png; sourceTree = "<group>"; };
+		BBFA87221CE1D81B00439E68 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		BBFA87001CE1D7FF00439E68 = {
 			isa = PBXGroup;
 			children = (
+				BB233BE31CE232CD00FABB0F /* README.md */,
 				BBFA870B1CE1D7FF00439E68 /* ColorAdapativeStatusBarExample */,
 				BBFA870A1CE1D7FF00439E68 /* Products */,
 			);
@@ -56,6 +69,11 @@
 			children = (
 				BBFA870C1CE1D7FF00439E68 /* AppDelegate.swift */,
 				BBFA870E1CE1D7FF00439E68 /* ViewController.swift */,
+				BBFA871E1CE1D81B00439E68 /* Flower.png */,
+				BBFA871F1CE1D81B00439E68 /* Type.png */,
+				BBFA87201CE1D81B00439E68 /* Leaf.png */,
+				BBFA87211CE1D81B00439E68 /* Rock.png */,
+				BBFA87221CE1D81B00439E68 /* Sky.png */,
 				BBFA87101CE1D7FF00439E68 /* Main.storyboard */,
 				BBFA87131CE1D7FF00439E68 /* Assets.xcassets */,
 				BBFA87151CE1D7FF00439E68 /* LaunchScreen.storyboard */,
@@ -122,7 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFA87261CE1D81B00439E68 /* Rock.png in Resources */,
+				BBFA87271CE1D81B00439E68 /* Sky.png in Resources */,
+				BBFA87231CE1D81B00439E68 /* Flower.png in Resources */,
 				BBFA87171CE1D7FF00439E68 /* LaunchScreen.storyboard in Resources */,
+				BBFA87241CE1D81B00439E68 /* Type.png in Resources */,
+				BBFA87251CE1D81B00439E68 /* Leaf.png in Resources */,
 				BBFA87141CE1D7FF00439E68 /* Assets.xcassets in Resources */,
 				BBFA87121CE1D7FF00439E68 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB233BE41CE232CD00FABB0F /* README.md in Sources */,
 				BBFA870F1CE1D7FF00439E68 /* ViewController.swift in Sources */,
 				BBFA870D1CE1D7FF00439E68 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +310,7 @@
 				BBFA871D1CE1D7FF00439E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
